@@ -1,15 +1,15 @@
 package Jeu;
 
-public class Grille {
+public class Grille2 {
 
     private int nbLigne;
     private int nbCol;
     private char[][] grille;
 
-    public Grille() {
+    public Grille2() {
     }
 
-    public Grille(int l, int c) {
+    public Grille2(int l, int c) {
         this.nbLigne = l;
         this.nbCol = c;
         this.grille = new char[l][c];
@@ -53,10 +53,8 @@ public class Grille {
 
     // deplacer()
 
-    // class main
     public static void main(String[] args) {
-
-        Grille g = new Grille(12, 8);
+        Grille2 g = new Grille2(12, 8);
 
         g.placer(3, 5, 'J');
         g.placer(8, 2, 'O');
