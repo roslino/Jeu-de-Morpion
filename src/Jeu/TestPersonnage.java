@@ -4,17 +4,6 @@ public class TestPersonnage {
 
     public static void main(String[] args) {
 
-        /*        System.out.println("Veuillez entrer un nombre");
-        Scanner sc1 = new Scanner(System.in);
-        int nb = sc1.nextInt();
-        System.out.println("Vous avez entrer : " + nb);
-
-        System.out.println("Veuillez entrer une chaine");
-        Scanner sc2 = new Scanner(System.in);
-        String ch = sc2.nextLine();
-        System.out.println("Vous avez entrer : " + ch);
-        */
-
         Grille g = new Grille(12, 8);
 
         g.placer(3, 5, 'J');
